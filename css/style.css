@@ -1,0 +1,288 @@
+:root {
+  /* Fonts --------------------------------------------------------------- */
+
+  --pramiry-font: "Roboto", sans-serif;
+
+  /* Colors ---------------------------------------------------------------*/
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: var(--pramiry-font);
+  color: #434455;
+  background-color: var(--white);
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style-type: none;
+}
+.address {
+  font-style: normal;
+}
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background: var(--ocean);
+}
+.nav:active,
+.nav:hover,
+.nav:focus {
+  color: var(--ocean);
+}
+/* Header styles --------------------------------------------------------------- */
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-color {
+  font-family: var(--pramiry-font);
+  color: var(--navy-blue-modal);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.header-navigation-list {
+}
+.header-navigation-item {
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link {
+}
+.header-address {
+  font-style: normal;
+}
+.header-address-list {
+}
+.header-address-item {
+  color: var(--slate);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address-link {
+}
+
+/* Main styles --------------------------------------------------------------- */
+
+.main {
+}
+
+/* Hero ---------------------------------------------------------------*/
+
+.hero {
+  background: var(--navy-blue);
+}
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-family: --pramiry-font;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  color: var(--white);
+  background: var(--iris);
+  font-family: var(--pramiry-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+/*Adventages ---------------------------------------------------------------*/
+
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-item-title {
+  color: var(--navy-blue);
+  font-family: var(--pramiry-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages-item-text {
+  color: var(--slate);
+  font-family: var(--pramiry-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Examples --------------------------------------------------------------- */
+
+.examples {
+}
+.examples-title {
+  color: var(--navy-blue);
+  text-align: center;
+  font-family: var(--pramiry-font);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.examples-list {
+}
+.examples-list-item {
+}
+.examples-list-img {
+}
+
+/* Team --------------------------------------------------------------- */
+
+.team {
+  background-color: var(--cloud);
+}
+.team-title {
+  color: var(--navy-blue);
+  text-align: center;
+  font-family: var(--pramiry-font);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-list-item {
+  background-color: var(--white);
+}
+.team-list-img {
+}
+.team-list-title {
+  color: var(--navy-blue);
+  text-align: center;
+  font-family: var(--pramiry-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-list-text {
+  color: var(--slate);
+  text-align: center;
+  font-family: var(--pramiry-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Footer --------------------------------------------------------------- */
+
+.footer {
+  background: var(--navy-blue);
+}
+.footer-text {
+  color: var(--cloud);
+  font-family: var(--pramiry-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-link {
+}
+.footer-logo-color {
+  color: var(--cloud, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Portfolio ---------------------------------------------------------------*/
+
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-filter-list {
+}
+.portfolio-filter-item {
+}
+.portfolio-filter-button {
+  color: var(--iris);
+  background: var(--cloud);
+  text-align: center;
+  font-family: var(--pramiry-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-img {
+}
+.portfolio-img-link {
+}
+.portfolio-list-title {
+  color: var(--navy-blue);
+  font-family: var(--pramiry-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-list-text {
+  color: var(--slate);
+  font-family: var(--pramiry-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
