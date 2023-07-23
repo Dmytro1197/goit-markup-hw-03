@@ -178,7 +178,7 @@ img {
 .hero-title {
   color: var(--white);
   text-align: center;
-  font-family: --pramiry-font;
+  font-family: var(--pramiry-font);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
